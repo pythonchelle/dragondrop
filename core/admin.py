@@ -1,0 +1,127 @@
+from django.contrib import admin
+from core.models import (
+    Area,
+    AreaFlag,
+    AreaHelp,
+    Spell,
+    WeaponDamageType,
+    DrinkType,
+    ContainerFlag,
+    ItemType,
+    ExtraDescription,
+    WearFlag,
+    ResetWearFlag,
+    ItemExtraFlag,
+    ItemModifier,
+    Item,
+    Light,
+    Fountain,
+    BaseWeapon,
+    BaseArmor,
+    BaseFood,
+    SimpleMagicalItem,
+    ChargedMagicalItem,
+    Weapon,
+    AnimalWeapon,
+    Armor,
+    AnimalArmor,
+    Food,
+    PetFood,
+    Scroll,
+    Potion,
+    Pill,
+    Wand,
+    Staff,
+    Fetish,
+    Ring,
+    Relic,
+    NonMagicalItem,
+    Treasure,
+    Furniture,
+    Trash,
+    Key,
+    Boat,
+    Decoration,
+    Jewelry,
+    DrinkContainer,
+    Container,
+    ItemContainerReset,
+    Money,
+    Race,
+    KnownLanguage,
+    PreferredLanguage,
+    ActionFlag,
+    AffectFlag,
+    SpecialFunction,
+    Mobile,
+    Shopkeeper,
+    MobRoomReset,
+    MobItemReset,
+    RoomType,
+    RoomFlag,
+    RoomSpecialFunction,
+    Room,
+    ItemRoomReset,
+    DoorTrigger,
+    DoorType,
+    Door,
+    )
+
+admin.site.register(Area)
+admin.site.register(AreaFlag)
+admin.site.register(AreaHelp)
+admin.site.register(Spell)
+admin.site.register(WeaponDamageType)
+admin.site.register(DrinkType)
+admin.site.register(ContainerFlag)
+admin.site.register(ItemType)
+admin.site.register(ExtraDescription)
+admin.site.register(WearFlag)
+admin.site.register(ResetWearFlag)
+admin.site.register(ItemExtraFlag)
+admin.site.register(ItemModifier)
+admin.site.register(Light)
+admin.site.register(Fountain)
+admin.site.register(Weapon)
+admin.site.register(AnimalWeapon)
+admin.site.register(Armor)
+admin.site.register(AnimalArmor)
+admin.site.register(Food)
+admin.site.register(PetFood)
+admin.site.register(Scroll)
+admin.site.register(Potion)
+admin.site.register(Pill)
+admin.site.register(Wand)
+admin.site.register(Staff)
+admin.site.register(Fetish)
+admin.site.register(Ring)
+admin.site.register(Relic)
+admin.site.register(Treasure)
+admin.site.register(Furniture)
+admin.site.register(Trash)
+admin.site.register(Key)
+admin.site.register(Boat)
+admin.site.register(Decoration)
+admin.site.register(Jewelry)
+admin.site.register(DrinkContainer)
+admin.site.register(Container)
+admin.site.register(ItemContainerReset)
+admin.site.register(Money)
+admin.site.register(Race)
+admin.site.register(KnownLanguage)
+admin.site.register(PreferredLanguage)
+admin.site.register(ActionFlag)
+admin.site.register(AffectFlag)
+admin.site.register(SpecialFunction)
+admin.site.register(Mobile)
+admin.site.register(Shopkeeper)
+admin.site.register(MobRoomReset)
+admin.site.register(MobItemReset)
+admin.site.register(RoomType)
+admin.site.register(RoomFlag)
+admin.site.register(RoomSpecialFunction)
+admin.site.register(Room)
+admin.site.register(ItemRoomReset)
+admin.site.register(DoorTrigger)
+admin.site.register(DoorType)
+admin.site.register(Door)

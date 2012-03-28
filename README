@@ -1,0 +1,7 @@
+DragonDrop is a web-based area editor for The Final Challenge MUD
+(http://finalchallenge.net/) being written in Django. There is presently
+no documentation and the project is unfinished (i.e. not in a usable
+state). However, development is ongoing.
+
+Any interested parties are welcome to contribute to the project. Feel
+free to get in touch.
